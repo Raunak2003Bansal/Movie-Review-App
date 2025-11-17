@@ -14,7 +14,11 @@ Extracts and summarizes IMDb reviews using AI and displays them on a Streamlit w
 
 ## 🛠️ Setup
 
+### Create a .env file in your directory to store your groq api key
+
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/<your-username>/movie-review-app.git
 cd movie-review-app
+
+
