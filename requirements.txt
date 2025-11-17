@@ -1,0 +1,14 @@
+requests
+beautifulsoup4
+crawl4ai
+selenium 
+webdriver-manager
+undetected-chromedriver
+setuptools
+langchain
+langchain_groq
+langchain-core 
+langchain-community
+langchain-classic
+streamlit
+playwright

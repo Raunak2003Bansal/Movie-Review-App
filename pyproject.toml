@@ -1,0 +1,21 @@
+[project]
+name = "bhawani"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "crawl4ai>=0.7.6",
+    "langchain>=1.0.7",
+    "langchain-classic>=1.0.0",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.0.5",
+    "langchain-groq>=1.0.1",
+    "requests>=2.32.5",
+    "selenium>=4.38.0",
+    "setuptools>=80.9.0",
+    "streamlit>=1.51.0",
+    "undetected-chromedriver>=3.5.5",
+    "webdriver-manager>=4.0.2",
+]
