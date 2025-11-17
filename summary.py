@@ -1,13 +1,10 @@
-from dotenv import load_dotenv
-import os
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_classic.chains import LLMChain
 from langchain_groq import ChatGroq
+import streamlit as st
 
-load_dotenv()
-
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 llm = ChatGroq(api_key=GROQ_API_KEY,model = "llama-3.3-70b-versatile")
 
 def review_summary(reviews):
